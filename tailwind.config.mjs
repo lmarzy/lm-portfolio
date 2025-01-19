@@ -2,9 +2,15 @@
 export default {
   content: ['./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}'],
   theme: {
-    fontFamily: {
-      poppins: ['Poppins', 'sans-serif'],
-    },
+    extend: {
+      fontFamily: {
+        poppins: ['Poppins', 'sans-serif'],
+      },
+      colors: {
+        orange: '#693834',
+        customBlue: '#282c67',
+      }
+    }
   },
   plugins: [],
 };

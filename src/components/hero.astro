@@ -1,0 +1,24 @@
+---
+import Container from "./shared/container.astro";
+---
+
+<section class="pt-24 md:pt-32 border-b border-neutral-600 bg-gradient-to-t from-neutral-700 via-neutral-800 to-neutral-900">
+  <Container>
+    <header class="flex flex-col border border-neutral-700 rounded-2xl mb-24 p-7 md:mb-32">
+      <p class="text-neutral-400 mb-1 text-xl">Hi, i'm Lee</p>
+      <h1 class="text-3xl md:text-4xl text-neutral-300">
+        I love crafting <span class="bg-gradient-to-r from-blue-700 to-pink-700 bg-clip-text text-transparent text-5xl">custom websites</span> specialising in user experience, design and front-end development.
+      </h1>
+    </header>
+  </Container>
+  <div class="border-t border-neutral-600">
+    <Container>
+      <ul class="flex gap-4 uppercase">
+        <li class="flex-1 border-r border-neutral-600 text-center p-2 text-neutral-300">UX</li>
+        <li class="flex-1 border-r border-neutral-600 text-center p-2 text-neutral-300">Design</li>
+        <li class="flex-1 text-center p-2 text-neutral-300">Development</li>
+      </ul>
+    </Container>
+  </div>
+
+</section>
